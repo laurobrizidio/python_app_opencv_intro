@@ -14,7 +14,6 @@ def main(path,filename,suffix_to_save,ext):
     hei,wid = img.shape[:2]
     print("Height = {},  Width = {}".format(hei, wid))
 
-    
 
     for index, vet in enumerate(img):
 
